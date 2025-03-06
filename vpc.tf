@@ -11,13 +11,6 @@ provider "google" {
   project = "solushunz-sap-poc"
   region  = "us-east4"
   zone    = "us-east4-b"
-  credentials = var.gcp_credentials
-}
-
-variable "gcp_credentials" {
-  description = "GCP Credentials JSON"
-  type        = string
-  sensitive   = true
 }
 
 resource "google_compute_network" "vpc_network" {
