@@ -1,2 +1,2 @@
-project = "solushunz-kloud-foundation"
-region = "us-east4"
+project = "PROJECT_ID"
+region = "region"
